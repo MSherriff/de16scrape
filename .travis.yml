@@ -1,0 +1,5 @@
+sercies:
+  - docker
+script:
+  - docker image build -t msherriff/blatest .
+  - docker container run msherriff/blatest
